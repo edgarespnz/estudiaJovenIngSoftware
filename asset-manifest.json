@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/estudiaJovenIngSoftware/dashboard/static/css/main.c2cab247.css",
+    "main.js": "/estudiaJovenIngSoftware/dashboard/static/js/main.8e92ee76.js",
+    "index.html": "/estudiaJovenIngSoftware/dashboard/index.html",
+    "main.c2cab247.css.map": "/estudiaJovenIngSoftware/dashboard/static/css/main.c2cab247.css.map",
+    "main.8e92ee76.js.map": "/estudiaJovenIngSoftware/dashboard/static/js/main.8e92ee76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.8e92ee76.js"
+  ]
+}
