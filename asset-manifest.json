@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/estudiaJovenIngSoftware/dashboard/static/css/main.c2cab247.css",
-    "main.js": "/estudiaJovenIngSoftware/dashboard/static/js/main.3a7bc100.js",
-    "index.html": "/estudiaJovenIngSoftware/dashboard/index.html",
-    "main.c2cab247.css.map": "/estudiaJovenIngSoftware/dashboard/static/css/main.c2cab247.css.map",
-    "main.3a7bc100.js.map": "/estudiaJovenIngSoftware/dashboard/static/js/main.3a7bc100.js.map"
+    "main.css": "/estudiaJovenIngSoftware/static/css/main.c2cab247.css",
+    "main.js": "/estudiaJovenIngSoftware/static/js/main.26df2a11.js",
+    "index.html": "/estudiaJovenIngSoftware/index.html",
+    "main.c2cab247.css.map": "/estudiaJovenIngSoftware/static/css/main.c2cab247.css.map",
+    "main.26df2a11.js.map": "/estudiaJovenIngSoftware/static/js/main.26df2a11.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.3a7bc100.js"
+    "static/js/main.26df2a11.js"
   ]
 }
