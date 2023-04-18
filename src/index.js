@@ -14,19 +14,19 @@ import Profile from './components/Pages/Profile';
 
 const router = createBrowserRouter([
   {
-    path: '/signup' , element: <SignUp />,
+    path: '/estudiaJovenIngSoftware/signup' , element: <SignUp />,
   },
   {
-    path: '/login' , element: <Login/>
+    path: '/estudiaJovenIngSoftware/login' , element: <Login/>
   },
   {
-    path: '/profile' , element: <PrivateRoute><Dashboard/></PrivateRoute>
+    path: '/estudiaJovenIngSoftware/profile' , element: <PrivateRoute><Dashboard/></PrivateRoute>
   },
   {
-    path: '/reset-password' , element: <ForgotPassword/>
+    path: '/estudiaJovenIngSoftware/reset-password' , element: <ForgotPassword/>
   },
   {
-    path: '/dashboard' , element: <PrivateRoute><Profile/></PrivateRoute>
+    path: '/estudiaJovenIngSoftware/dashboard' , element: <PrivateRoute><Profile/></PrivateRoute>
   }
 ])
 
