@@ -24,6 +24,7 @@ export function AuthProvider({ children }) {
         lastNames : lastNames,
         rol: "Alumno"
       })
+      sendVerifyEmail()
     } catch (error) {
       return error;
     }
@@ -57,6 +58,10 @@ export function AuthProvider({ children }) {
     return auth.sendPasswordResetEmail(email)
   }
 
+  function sendVerifyEmail(){
+    return auth.sendEmailVerification()
+  }
+
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged(user => {
       setLoading(false)
@@ -72,7 +77,6 @@ export function AuthProvider({ children }) {
     logout,
     resetPassword,
     getUserData
-    
   }
 
   return (

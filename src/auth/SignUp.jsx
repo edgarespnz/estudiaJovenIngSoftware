@@ -31,7 +31,7 @@ function SignUp() {
                 setLoading(true)
                 await signup(email, password, names, lastNames)
                 setLoading(false);
-                navigate("/login")
+                navigate("/verify-email")
             } catch (e) {
                 setError('Failed to create account')
             }

@@ -9,10 +9,9 @@ import Dashboard from './components/Pages/Profile';
 import PrivateRoute from './components/PrivateRoute';
 import ForgotPassword from './auth/ForgotPassword';
 import Profile from './components/Pages/Profile';
+import VerifyEmail from './components/Pages/VerifyEmail';
 
-
-
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: '/signup' , element: <SignUp />,
   },
@@ -27,6 +26,9 @@ const router = createHashRouter([
   },
   {
     path: '/dashboard' , element: <PrivateRoute><Profile/></PrivateRoute>
+  },
+  {
+    path: '/verify-email' , element: <PrivateRoute><VerifyEmail/></PrivateRoute>
   }
 ])
 
