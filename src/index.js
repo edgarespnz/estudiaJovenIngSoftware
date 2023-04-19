@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import SignUp from './auth/SignUp';
 import Login from './auth/Login';
@@ -12,7 +12,7 @@ import Profile from './components/Pages/Profile';
 
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/signup' , element: <SignUp />,
   },
